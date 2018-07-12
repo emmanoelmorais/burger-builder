@@ -211,7 +211,7 @@ class ContactData extends Component{
         if(this.state.loading){
             form = <Spinner/>;
         }
-        
+
         return(
             <div className={classes.ContactData}>
                 <h4>Enter your Contact Data</h4>
